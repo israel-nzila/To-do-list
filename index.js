@@ -1,7 +1,7 @@
 function addTask() {
   // Récupérer la valeur de la nouvelle tâche
-  var tanput = document.getElementById("newTask");
-  var taskValue = tas.value;
+  var taskInput = document.getElementById("newTask");
+  var taskValue = taskInput.value;
 
   // Vérifier si la valeur n'est pas vide
   if (taskValue.trim() !== "") {
